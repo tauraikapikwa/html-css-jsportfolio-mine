@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Potifolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Taurai Kapikwa</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Taurai Kapikwa</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+        </div>
+    </nav>
+        <section id="profile">
+        <div class="section__pic-container">
+            <img class="social" src="./assets/profile-pictk.png" alt="Taurai Kpapikwa profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I am</p>
+            <hi class="title">Taurai Kapikwa</hi>
+            <p class="section__text__p2">IT Support Specialist</p>
+            <div class="btn-container">
+                <button 
+                class="btn btn-color-2" 
+                onclick="window.open('./assets/my cv')"
+                >Download CV
+            </button>
+                <button class="btn btn-color-1" onclick="location.href= './#contact'">
+                 Contact info
+            </button>
+            </div>
+            <div id="socials-container">
+                <!-- <img src="./assets/linkedin.png" alt="My linkedin profile"
+                class="icon" 
+                onclick="location.href='https://linkedin.com/'"
+                /> -->
+                <a href="https://linkedin.com/"> <img class="img"  src="./assets/linkedin.png" class="social" alt="My linkedin profile"/></a>
+                <!-- <img src="./assets/github.png" 
+                    alt="My Github profile"
+                class="icon" 
+                onclick="location.href='https://github.com/'"
+                /> -->
+                <a href="https://github.com/"> <img class="img" src="./assets/github.png" class="social" alt="My Gethub profile"/></a>
+        
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="title" style="font-size: 20px;">Get To Know Me</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container" style=" float: left; width: 40%;">
+                <img 
+                src="./assets/about.png" 
+                alt="profile picture"
+                class="about-pic"
+                style="width: 53vh; border-radius: 25px; height: 55vh;" 
+             />
+            </div>
+            </div class="about-details-container">
+              <div class="socials-containers" style=" width: 66%; height: 100%; float: right; margin-top: -40%;">
+               <div id="btn-container" style=" width: 33%;  height: 170px;  float: left; border: 1px solid; margin-right: 3%; padding: 10px; border-radius: 25px; text-align: center;">
+                 <img 
+                   src="./assets/experience.png"
+                   alt="Experience icon"
+                   class="icon"
+                  />
+                  <h3>Experience</h3>
+                  <p>4 years <br />IT Support Specialist</p>
+                </div>
+                <div id="socials" style=" width: 33%;  height: 170px;  float: left; border: 1px solid; margin-right: 10px; padding: 10px; border-radius: 25px; text-align: center;">
+                    <img 
+                      src="./assets/education.png"
+                      alt="Education icon"
+                      class="icon"
+                     />
+                     <h3>Education</h3>
+                     <p>Still Studying <br />Bachelors Degree In Information And Technology</p>
+                   </div>
+                   <div id="socials" style=" width: 70%; float: left; justify-content: center;">
+                     <h3>Experience</h3>
+                     <p>Meet Taurai, a versatile professional excelling in graphic and website design with a keen eye for creativity. With a background in administrative assistance and IT support, Taurai seamlessly transitions into roles, showcasing adaptability and strong organizational skills. As a proficient project coordinator, they blend creative prowess with effective task management. Taurai holds a Microsoft Suite certificate and various safety management and first aid certifications, underlining a commitment to safety and a well-rounded skill set. This dynamic individual brings creativity, technical expertise, and a strong sense of responsibility to every project. Taurai's proven success in diverse roles, coupled with a passion for continuous learning, positions them as a valuable asset for any team or project, ready to make significant contributions
+                     </p>
+             </div>
+          </div>    
+        </div>
+        <img src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon"
+        onclick="location.href='./#experience'"
+        />
+    </section>
+    <section id="experience">
+        <p class="title" style="font-size: 20px;">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about_containers">
+                <div class="details-containers">
+                    <h2 class="experience-sub-title">IT Support Specialist</h2>
+                    <div class="artical_container">
+                    </div>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>HTML</h3>
+                                <P>Experience</P>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>CSS</h3>
+                                <P>Experience</P>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>SASS</h3>
+                                <P>Intermediate</P>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <P>Basic</P>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>TypeScript</h3>
+                                <P>Basic</P>
+                            </div>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Material UI</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            <div class="about_containers">
+                <div class="details-containers">
+                    <h2 class="experience-sub-title">IT Support Specialist</h2>
+                    <div class="artical_container">
+                    </div>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Node JS</h3>
+                                <P>Experience</P>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Express JS</h3>
+                                <P>Experience</P>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Git</h3>
+                                <P>Intermediate</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
